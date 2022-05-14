@@ -11,3 +11,11 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+- [Install](https://docs.docker.com/engine/install/ubuntu/) `docker` and `docker-compose`
+- cd to the project directory
+    ```bash
+    cd /path/to/Anything-Market-45rh6
+    ```
+- Run the code by using `docker-compose up` command
+- Open http://localhost:3000/api/ping to make sure server started as expected
+- Open http://localhost:3001/register and create new account to make sure client start as expected
